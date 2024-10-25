@@ -43,7 +43,7 @@ async def main():
         rect.centery = rect.centery % window.get_height()
 
         window.fill('black')
-        pygame.draw.rect(window, (255, 0, 0), rect)
+        pygame.draw.rect(window, (0, 255, 0), rect)
         pygame.display.flip()
         await asyncio.sleep(0)
 
